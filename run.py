@@ -1,5 +1,5 @@
 from scapy.all import *
-import pickle as pkl
+import pickle as pkl 
 import sklearn
 
 icmp_model = pkl.load(open("icmp_model.pkl", 'rb')) # Loading the trained ML model (KNN)
