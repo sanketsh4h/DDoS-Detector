@@ -5,7 +5,7 @@
 DDoS Detector, as the name suggests aims at detecting and alerting its user of DDoS attacks before the attack may do any plausible damage (In case you don't know what a DDoS attack is, you may refer to section 2 of this text). This project is programmed in python and is divided in two modules:
 
 ### 1.1. Packet Sniffing:
- This Project captures and detects packets in real time. To capture the packets in real-time, this project uses Scapy library. (Information on how to install Scapy is provided in Section 3 of this text.)
+ This Project captures and detects packets in real time. To capture the packets in real-time, this project uses Scapy library. (Information on how to install Scapy is provided in Section 3 of this text.) 
 
 ### 1.2 Classification:
 To classify the captured packets, a Multi-Layer Perceptron classifier is used. To implement the same, scikit-learn library has been used. (Information on how to install scikit-learn is provided in Section 3 of this text.) To train the classifier, the Revised KDD Cup Dataset is being used. 
